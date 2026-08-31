@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  max-width: 900px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+body > * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+div {
+  text-align: center !important;
+}
