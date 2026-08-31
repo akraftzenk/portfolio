@@ -31,6 +31,10 @@ img {
   margin-bottom: 1rem;
 }
 
+video {
+  object-fit: contain;
+}
+
 @media only screen and (max-width: 767px) {
   #sticky-header {
     padding: 2em 1em 1em 1em;
