@@ -1,4 +1,5 @@
 @import url("fonts/Josefin Sans/stylesheet.css");
+@import url("fonts/Super Indie/stylesheet.css");
 @import "tailwindcss";
 
 @theme {
@@ -38,8 +39,8 @@ body {
 
 .highlight {
   /*background-color: #a4c2f4;*/
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: bolder;
+  font-family: "Super Indie", sans-serif;
+  font-weight: normal;
   background-color: #6290c3;
   width: fit-content;
   padding: 0.5rem;
