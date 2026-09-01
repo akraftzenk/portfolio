@@ -10,306 +10,337 @@
       @import url(https://themes.googleusercontent.com/fonts/css?kit=rfSAlb2JfKqknMZbyNv1qc_Fuv52lpEMBibtyOKvYag);
     </style>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
 
   <!--Why does my HTML look like this? I created a google doc for my portfolio, and exported it :) -->
 
-  <body class="c12 doc-content" id="main-body">
+  <body class="doc-content" id="main-body">
     <span id="sticky-header">
+      <span id="page-list">
+        <div class="text-sm font-medium text-center text-body border-default">
+          <ul class="flex flex-wrap -mb-px">
+            <li class="me-2">
+              <a
+                href="#"
+                class="inline-block p-4 border-b border-brand rounded-t-base hover:text-fg-brand hover:border-brand"
+                >About</a
+              >
+            </li>
+            <li class="me-2">
+              <a
+                href="#"
+                class="inline-block p-4 text-fg-brand border-b border-transparent rounded-t-base active"
+                aria-current="page"
+                >Projects</a
+              >
+            </li>
+            <li class="me-2">
+              <a
+                href="#"
+                class="inline-block p-4 border-b border-transparent rounded-t-base hover:text-fg-brand hover:border-brand"
+                >Experience</a
+              >
+            </li>
+          </ul>
+        </div>
+      </span>
       <p class="c7 title" id="h.yfel5zs629q0">
         <span class="c10" id="name">Aidan Kraftzenk</span>
       </p>
       <p class="c4"><span class="c18">Game Developer / Programmer</span></p>
     </span>
-    <h1 class="c3" id="h.t8l1b4rq0cr"><span class="c9">About</span></h1>
-    <p class="c1"><span class="c11"></span></p>
-    <p class="c4 c6">
-      <span class="c10"
-        >I&#39;ve been building games on Roblox since fifth grade, now over
-        twelve years ago, starting with shooters and gradually taking on more
-        complex systems across team and solo projects. Over that time I became
-        deeply embedded in the Roblox development community, regularly helping
-        others debug and learn on the forums and through the RTC, which
-        sharpened both my technical instincts and my ability to communicate
-        clearly about code. My most significant work to date is a contract role
-        on
-      </span>
-      <span class="c10 c19">Heroes of Robloxia 2</span
-      ><span class="c0"
-        >, where I architected a versatile enemy AI system built on a
-        state-machine/behavior-tree hybrid, along with weapon systems and a
-        custom 3D particle system. I hold a Bachelor&#39;s degree in Software
-        Engineering with a minor in Mathematics from MSOE, and while Lua is the
-        language I know most deeply, the software engineering principles I
-        studied in college (architecture, clean code, and rigorous
-        problem-solving) show clearly in how I approach my Roblox work. I&#39;m
-        someone who has always learned by doing, and I&#39;m as comfortable
-        diving into creating a new system from scratch as I am jumping into an
-        existing codebase. <br />
-        By the way, props to you for reading the history of this repo! I hope to
-        work with you soon!
-      </span>
-    </p>
-    <p class="c1"><span class="c0"></span></p>
-    <hr />
-    <p class="c1"><span class="c0"></span></p>
-    <h1 class="c3" id="h.x5i9y019ghqv"><span class="c9">Projects</span></h1>
-    <p class="c4">
-      <span
-        >Note: most of the work shown here dates from high school, over four
-        years ago. My technical abilities have grown significantly since then
-        through formal Software Engineering study at MSOE. Additionally, my most
-        recent and substantial work has been on Heroes of Robloxia 2.
-      </span>
-    </p>
-    <p class="c1"><span class="c0"></span></p>
-    <p class="c2">
-      <span class="c0"><br /></span>
-    </p>
-    <p class="c5">
-      <span
-        style="
-          overflow: hidden;
-          display: inline-block;
-          margin: 0px 0px;
-          border: 0px solid #000000;
-          transform: rotate(0rad) translateZ(0px);
-          -webkit-transform: rotate(0rad) translateZ(0px);
-          width: 480px;
-          height: 328px;
-        "
-        ><video width="640" height="360" autoplay muted loop playsinline>
-          <source
-            src="videos/RobloxStudioBeta_rf2W2zcFoq.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video></span
-      >
-    </p>
-    <p class="c5">
-      <span class="c0"
-        >A plugin I made to create graphs intended for pathfinding
-        applications.</span
-      >
-    </p>
-    <p class="c2"><span class="c0"></span></p>
-    <p class="c2"><span class="c0"></span></p>
-    <p class="c5">
-      <span
-        style="
-          overflow: hidden;
-          display: inline-block;
-          margin: 0px 0px;
-          border: 0px solid #000000;
-          transform: rotate(0rad) translateZ(0px);
-          -webkit-transform: rotate(0rad) translateZ(0px);
-          width: 480px;
-          height: 251px;
-        "
-        ><img
-          alt=""
-          src="images/image1.gif"
+    <span id="page-contents">
+      <h1 class="c3" id="h.t8l1b4rq0cr"><span class="c9">About</span></h1>
+      <p class="c1"><span class="c11"></span></p>
+      <p class="c4 c6">
+        <span class="c10"
+          >I&#39;ve been building games on Roblox since fifth grade, now over
+          twelve years ago, starting with shooters and gradually taking on more
+          complex systems across team and solo projects. Over that time I became
+          deeply embedded in the Roblox development community, regularly helping
+          others debug and learn on the forums and through the RTC, which
+          sharpened both my technical instincts and my ability to communicate
+          clearly about code. My most significant work to date is a contract
+          role on
+        </span>
+        <span class="c10 c19">Heroes of Robloxia 2</span
+        ><span class="c0"
+          >, where I architected a versatile enemy AI system built on a
+          state-machine/behavior-tree hybrid, along with weapon systems and a
+          custom 3D particle system. I hold a Bachelor&#39;s degree in Software
+          Engineering with a minor in Mathematics from MSOE, and while Lua is
+          the language I know most deeply, the software engineering principles I
+          studied in college (architecture, clean code, and rigorous
+          problem-solving) show clearly in how I approach my Roblox work.
+          I&#39;m someone who has always learned by doing, and I&#39;m as
+          comfortable diving into creating a new system from scratch as I am
+          jumping into an existing codebase. <br />
+          By the way, props to you for reading the history of this repo! I hope
+          to work with you soon!
+        </span>
+      </p>
+      <p class="c1"><span class="c0"></span></p>
+      <hr />
+      <p class="c1"><span class="c0"></span></p>
+      <h1 class="c3" id="h.x5i9y019ghqv"><span class="c9">Projects</span></h1>
+      <p class="c4">
+        <span
+          >Note: most of the work shown here dates from high school, over four
+          years ago. My technical abilities have grown significantly since then
+          through formal Software Engineering study at MSOE. Additionally, my
+          most recent and substantial work has been on Heroes of Robloxia 2.
+        </span>
+      </p>
+      <p class="c1"><span class="c0"></span></p>
+      <p class="c2">
+        <span class="c0"><br /></span>
+      </p>
+      <p class="c5">
+        <span
+          class="bg-fixed"
           style="
+            overflow: hidden;
+            display: inline-block;
+            margin: 0px 0px;
+            border: 0px solid #000000;
+            transform: rotate(0rad) translateZ(0px);
+            -webkit-transform: rotate(0rad) translateZ(0px);
+            height: 328px;
+          "
+          ><video width="720" height="360" autoplay muted loop playsinline>
+            <source
+              src="videos/RobloxStudioBeta_rf2W2zcFoq.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video></span
+        >
+      </p>
+      <p class="c5">
+        <span class="c0"
+          >A plugin I made to create graphs intended for pathfinding
+          applications.</span
+        >
+      </p>
+      <p class="c2"><span class="c0"></span></p>
+      <p class="c2"><span class="c0"></span></p>
+      <p class="c5">
+        <span
+          style="
+            overflow: hidden;
+            display: inline-block;
+            margin: 0px 0px;
+            border: 0px solid #000000;
+            transform: rotate(0rad) translateZ(0px);
+            -webkit-transform: rotate(0rad) translateZ(0px);
             width: 480px;
             height: 251px;
-            margin-left: 0px;
-            margin-top: 0px;
+          "
+          ><img
+            alt=""
+            src="images/image1.gif"
+            style="
+              width: 480px;
+              height: 251px;
+              margin-left: 0px;
+              margin-top: 0px;
+              transform: rotate(0rad) translateZ(0px);
+              -webkit-transform: rotate(0rad) translateZ(0px);
+            "
+            title=""
+        /></span>
+      </p>
+      <p class="c5">
+        <span class="c0"
+          >A building system for a small solo project where you could set up
+          shop at a mall to sell + market Roblox clothing.</span
+        >
+      </p>
+      <p class="c2"><span class="c0"></span></p>
+      <p class="c5">
+        <span
+          style="
+            overflow: hidden;
+            display: inline-block;
+            margin: 0px 0px;
+            border: 0px solid #000000;
             transform: rotate(0rad) translateZ(0px);
             -webkit-transform: rotate(0rad) translateZ(0px);
-          "
-          title=""
-      /></span>
-    </p>
-    <p class="c5">
-      <span class="c0"
-        >A building system for a small solo project where you could set up shop
-        at a mall to sell + market Roblox clothing.</span
-      >
-    </p>
-    <p class="c2"><span class="c0"></span></p>
-    <p class="c5">
-      <span
-        style="
-          overflow: hidden;
-          display: inline-block;
-          margin: 0px 0px;
-          border: 0px solid #000000;
-          transform: rotate(0rad) translateZ(0px);
-          -webkit-transform: rotate(0rad) translateZ(0px);
-          width: 480px;
-          height: 247px;
-        "
-        ><img
-          alt=""
-          src="images/image5.gif"
-          style="
             width: 480px;
             height: 247px;
-            margin-left: 0px;
-            margin-top: 0px;
+          "
+          ><img
+            alt=""
+            src="images/image5.gif"
+            style="
+              width: 480px;
+              height: 247px;
+              margin-left: 0px;
+              margin-top: 0px;
+              transform: rotate(0rad) translateZ(0px);
+              -webkit-transform: rotate(0rad) translateZ(0px);
+            "
+            title=""
+        /></span>
+      </p>
+      <p class="c5">
+        <span class="c0"
+          >A quick attempt at a &ldquo;Paint the Town Red&rdquo; clone.</span
+        >
+      </p>
+      <p class="c2"><span class="c0"></span></p>
+      <p class="c2"><span class="c0"></span></p>
+      <p class="c5">
+        <span
+          style="
+            overflow: hidden;
+            display: inline-block;
+            margin: 0px 0px;
+            border: 0px solid #000000;
             transform: rotate(0rad) translateZ(0px);
             -webkit-transform: rotate(0rad) translateZ(0px);
-          "
-          title=""
-      /></span>
-    </p>
-    <p class="c5">
-      <span class="c0"
-        >A quick attempt at a &ldquo;Paint the Town Red&rdquo; clone.</span
-      >
-    </p>
-    <p class="c2"><span class="c0"></span></p>
-    <p class="c2"><span class="c0"></span></p>
-    <p class="c5">
-      <span
-        style="
-          overflow: hidden;
-          display: inline-block;
-          margin: 0px 0px;
-          border: 0px solid #000000;
-          transform: rotate(0rad) translateZ(0px);
-          -webkit-transform: rotate(0rad) translateZ(0px);
-          width: 480px;
-          height: 294px;
-        "
-        ><img
-          alt=""
-          src="images/image3.gif"
-          style="
             width: 480px;
             height: 294px;
-            margin-left: 0px;
-            margin-top: 0px;
+          "
+          ><img
+            alt=""
+            src="images/image3.gif"
+            style="
+              width: 480px;
+              height: 294px;
+              margin-left: 0px;
+              margin-top: 0px;
+              transform: rotate(0rad) translateZ(0px);
+              -webkit-transform: rotate(0rad) translateZ(0px);
+            "
+            title=""
+        /></span>
+      </p>
+      <p class="c5">
+        <span class="c0"
+          >An FPS system I created that handles procedural movement animations,
+          recoil, reloading, and hit-detection.</span
+        >
+      </p>
+      <p class="c2"><span class="c0"></span></p>
+      <p class="c5">
+        <span
+          style="
+            overflow: hidden;
+            display: inline-block;
+            margin: 0px 0px;
+            border: 0px solid #000000;
             transform: rotate(0rad) translateZ(0px);
             -webkit-transform: rotate(0rad) translateZ(0px);
-          "
-          title=""
-      /></span>
-    </p>
-    <p class="c5">
-      <span class="c0"
-        >An FPS system I created that handles procedural movement animations,
-        recoil, reloading, and hit-detection.</span
-      >
-    </p>
-    <p class="c2"><span class="c0"></span></p>
-    <p class="c5">
-      <span
-        style="
-          overflow: hidden;
-          display: inline-block;
-          margin: 0px 0px;
-          border: 0px solid #000000;
-          transform: rotate(0rad) translateZ(0px);
-          -webkit-transform: rotate(0rad) translateZ(0px);
-          width: 624px;
-          height: 421.33px;
-        "
-        ><img
-          alt=""
-          src="images/image4.gif"
-          style="
             width: 624px;
             height: 421.33px;
-            margin-left: 0px;
-            margin-top: 0px;
-            transform: rotate(0rad) translateZ(0px);
-            -webkit-transform: rotate(0rad) translateZ(0px);
           "
-          title=""
-      /></span>
-    </p>
-    <p class="c5">
-      <span class="c0"
-        >A snippet of gameplay from my solo project &ldquo;Mine
-        Game&rdquo;.</span
-      >
-    </p>
-    <p class="c5">
-      <span class="c0"
-        >This game is a good showcase of what I can do. It was programmed by me
-        entirely without any use of AI. This includes: Creating and designing
-        all game systems, including procedural track generation, vehicle
-        interpolation, mining, storage systems; Designing and programming all
-        UI; and building each level by hand.</span
-      >
-    </p>
-    <p hidden class="c5">
-      <span class="c10 c20"
-        ><a
-          class="c15"
-          href="https://www.google.com/url?q=https://www.roblox.com/games/12804303087/Mine-Game&amp;sa=D&amp;source=editors&amp;ust=1788152334600124&amp;usg=AOvVaw3AHvC9DQ9dL35Y5KFXc2Xs"
-          >https://www.roblox.com/games/12804303087/Mine-Game</a
-        ></span
-      >
-    </p>
-    <p class="c2"><span class="c0"></span></p>
-    <hr />
-    <p class="c1"><span class="c0"></span></p>
-    <h1 class="c3" id="h.gr50g2shqfoq"><span class="c9">Experience</span></h1>
-    <p class="c1"><span class="c0"></span></p>
-    <p class="c4">
-      <span class="c8"
-        >AI Specialist | Heroes of Robloxia 2 | 2019 - Present</span
-      >
-    </p>
-    <ul class="c13 lst-kix_7giy96818kut-0 start">
-      <li class="c4 c14 li-bullet-0">
+          ><img
+            alt=""
+            src="images/image4.gif"
+            style="
+              width: 624px;
+              height: 421.33px;
+              margin-left: 0px;
+              margin-top: 0px;
+              transform: rotate(0rad) translateZ(0px);
+              -webkit-transform: rotate(0rad) translateZ(0px);
+            "
+            title=""
+        /></span>
+      </p>
+      <p class="c5">
         <span class="c0"
-          >Designed and programmed an advanced behavior tree/state machine
-          hybrid to simulate intelligent enemy behavior from the ground up in
-          Lua, contributing to a franchise with over 160M+ plays.
-        </span>
-      </li>
-      <li class="c4 c14 li-bullet-0">
+          >A snippet of gameplay from my solo project &ldquo;Mine
+          Game&rdquo;.</span
+        >
+      </p>
+      <p class="c5">
         <span class="c0"
-          >Demonstrated long-term commitment and discipline by consistently
-          contributing to an iconic franchise over 5 years while balancing
-          academic and professional responsibilities.
-        </span>
-      </li>
-      <li class="c4 c14 li-bullet-0">
-        <span class="c0"
-          >Established branching strategies and guided teammates in resolving
-          merge conflicts, improving workflow efficiency.
-        </span>
-      </li>
-    </ul>
-    <p class="c1"><span class="c0"></span></p>
-    <p class="c4">
-      <span class="c8 c16"
-        >Full-Stack Engineer Intern | Ancilla Ventures | 2024</span
-      >
-    </p>
-    <ul class="c13 lst-kix_z14i41wxu9uy-0 start">
-      <li class="c4 c14 li-bullet-0">
-        <span class="c0"
-          >Created, debugged, and enhanced web applications using complex SQL
-          queries, PHP, and Java to enhance cleaning efficiency and filing.
-        </span>
-      </li>
-      <li class="c4 c14 li-bullet-0">
-        <span class="c0"
-          >Partnered with the UX team to rebuild and modernize 20+ user
-          interfaces with PHP and JavaScript, significantly enhancing user
-          navigation, accessibility, and workflow efficiency.
-        </span>
-      </li>
-      <li class="c4 c14 li-bullet-0">
-        <span class="c10"
-          >Proposed and implemented strategies for code efficiency, memory
-          optimization, and user experience resulting in faster load times by
-          over 60% on some pages.
-        </span>
-      </li>
-    </ul>
-    <p class="c1"><span class="c0"></span></p>
-    <p class="c1"><span class="c0"></span></p>
-    <p class="c4">
-      <span class="c10 c19">Code snippets available upon request</span>
-    </p>
-    <p class="c1"><span class="c0"></span></p>
-    <p class="c1"><span class="c0"></span></p>
+          >This game is a good showcase of what I can do. It was programmed by
+          me entirely without any use of AI. This includes: Creating and
+          designing all game systems, including procedural track generation,
+          vehicle interpolation, mining, storage systems; Designing and
+          programming all UI; and building each level by hand.</span
+        >
+      </p>
+      <p hidden class="c5">
+        <span class="c10 c20"
+          ><a
+            class="c15"
+            href="https://www.google.com/url?q=https://www.roblox.com/games/12804303087/Mine-Game&amp;sa=D&amp;source=editors&amp;ust=1788152334600124&amp;usg=AOvVaw3AHvC9DQ9dL35Y5KFXc2Xs"
+            >https://www.roblox.com/games/12804303087/Mine-Game</a
+          ></span
+        >
+      </p>
+      <p class="c2"><span class="c0"></span></p>
+      <hr />
+      <p class="c1"><span class="c0"></span></p>
+      <h1 class="c3" id="h.gr50g2shqfoq"><span class="c9">Experience</span></h1>
+      <p class="c1"><span class="c0"></span></p>
+      <p class="c4">
+        <span class="c8"
+          >AI Specialist | Heroes of Robloxia 2 | 2019 - Present</span
+        >
+      </p>
+      <ul class="c13 lst-kix_7giy96818kut-0 start">
+        <li class="c4 c14 li-bullet-0">
+          <span class="c0"
+            >Designed and programmed an advanced behavior tree/state machine
+            hybrid to simulate intelligent enemy behavior from the ground up in
+            Lua, contributing to a franchise with over 160M+ plays.
+          </span>
+        </li>
+        <li class="c4 c14 li-bullet-0">
+          <span class="c0"
+            >Demonstrated long-term commitment and discipline by consistently
+            contributing to an iconic franchise over 5 years while balancing
+            academic and professional responsibilities.
+          </span>
+        </li>
+        <li class="c4 c14 li-bullet-0">
+          <span class="c0"
+            >Established branching strategies and guided teammates in resolving
+            merge conflicts, improving workflow efficiency.
+          </span>
+        </li>
+      </ul>
+      <p class="c1"><span class="c0"></span></p>
+      <p class="c4">
+        <span class="c8 c16"
+          >Full-Stack Engineer Intern | Ancilla Ventures | 2024</span
+        >
+      </p>
+      <ul class="c13 lst-kix_z14i41wxu9uy-0 start">
+        <li class="c4 c14 li-bullet-0">
+          <span class="c0"
+            >Created, debugged, and enhanced web applications using complex SQL
+            queries, PHP, and Java to enhance cleaning efficiency and filing.
+          </span>
+        </li>
+        <li class="c4 c14 li-bullet-0">
+          <span class="c0"
+            >Partnered with the UX team to rebuild and modernize 20+ user
+            interfaces with PHP and JavaScript, significantly enhancing user
+            navigation, accessibility, and workflow efficiency.
+          </span>
+        </li>
+        <li class="c4 c14 li-bullet-0">
+          <span class="c10"
+            >Proposed and implemented strategies for code efficiency, memory
+            optimization, and user experience resulting in faster load times by
+            over 60% on some pages.
+          </span>
+        </li>
+      </ul>
+      <p class="c1"><span class="c0"></span></p>
+      <p class="c1"><span class="c0"></span></p>
+      <p class="c4">
+        <span class="c10 c19">Code snippets available upon request</span>
+      </p>
+      <p class="c1"><span class="c0"></span></p>
+      <p class="c1"><span class="c0"></span></p>
+    </span>
   </body>
 </html>
