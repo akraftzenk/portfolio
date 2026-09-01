@@ -8,7 +8,7 @@ body {
 
 #page-contents {
   max-width: 900px !important;
-  margin: 0 auto;
+  margin: 2rem auto;
   display: inline-block;
 }
 
@@ -26,13 +26,13 @@ body {
   margin-right: auto;
 }
 
-p,
+/*p,
 h1,
 h2,
 h3,
 div {
-  text-align: center !important;
-}
+  text-align: center;
+}*/
 
 #sticky-header {
   position: sticky;
@@ -275,6 +275,11 @@ table th {
   widows: 2;
   text-align: left;
 }
+.header-text {
+  cursor: default;
+  text-align: center;
+}
+
 #name {
   background-color: #a4c2f4;
   color: #000000;
@@ -283,6 +288,7 @@ table th {
   vertical-align: baseline;
   font-size: 2.6rem;
   font-style: normal;
+  text-align: center;
 }
 .c5 {
   padding-top: 0pt;
@@ -336,18 +342,6 @@ table th {
 .c19 {
   font-style: italic;
 }
-.title {
-  padding-top: 0pt;
-  color: #000000;
-  font-size: 2.6rem;
-  padding-bottom: 0.1rem;
-  line-height: 1.15;
-  page-break-after: avoid;
-  orphans: 2;
-  widows: 2;
-  text-align: left;
-  margin: 1rem;
-}
 .subtitle {
   padding-top: 0pt;
   color: #666666;
@@ -359,6 +353,9 @@ table th {
   widows: 2;
   text-align: left;
 }
+.highlight {
+  background-color: #a4c2f4;
+}
 li {
   color: #000000;
   font-size: 1.1rem;
@@ -366,7 +363,7 @@ li {
 p {
   /*margin: 0;*/
   color: #000000;
-  font-size: 1.1rem;
+  /*font-size: 1.1rem;*/
 }
 h1 {
   padding-top: 20pt;
