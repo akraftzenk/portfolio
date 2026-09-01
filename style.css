@@ -3,6 +3,7 @@
 
 @theme {
   --color-accent: #2b2d42;
+  --color-primary: #edf2f4;
   --color-secondary: #6290c3;
 
   --font-display: "Josefin Sans", sans-serif;
@@ -376,11 +377,11 @@ li {
   color: #2b2d42;
   font-size: 1.1rem;
 }
-p {
+/*p {
   /*margin: 0;*/
-  color: #2b2d42;
-  /*font-size: 1.1rem;*/
-}
+/*color: #2b2d42;*/
+/*font-size: 1.1rem;*/
+/*}*/
 h1 {
   padding-top: 20pt;
   color: #2b2d42;
