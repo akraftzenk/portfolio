@@ -1,6 +1,15 @@
+@import url("fonts/Josefin Sans/stylesheet.css");
 @import "tailwindcss";
 
+@theme {
+  --color-accent: #2b2d42;
+  --color-secondary: #6290c3;
+
+  --font-display: "Josefin Sans", sans-serif;
+}
+
 body {
+  background-color: #edf2f4;
   text-align: center;
   width: 100% !important;
   margin: 0 !important;
@@ -26,6 +35,16 @@ body {
   margin-right: auto;
 }
 
+.highlight {
+  /*background-color: #a4c2f4;*/
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+  background-color: #6290c3;
+  width: fit-content;
+  padding: 0.5rem;
+  border-radius: 1rem 0.5rem 1rem 0.6rem;
+}
+
 /*p,
 h1,
 h2,
@@ -40,7 +59,7 @@ div {
   padding: 1em;
   top: 0;
   z-index: 1000; /* Keeps it on top of other overlapping content */
-  background-color: white;
+  background-color: #edf2f4;
 }
 
 img {
@@ -196,8 +215,8 @@ table th {
   padding: 0;
 }
 .c9 {
-  background-color: #a4c2f4;
-  color: #000000;
+  background-color: #edf2f4;
+  color: #2b2d42;
   font-weight: bold;
   text-decoration: none;
   vertical-align: baseline;
@@ -206,8 +225,8 @@ table th {
   font-style: normal;
 }
 .c18 {
-  background-color: #a4c2f4;
-  color: #000000;
+  background-color: #edf2f4;
+  color: #2b2d42;
   font-weight: 400;
   text-decoration: none;
   vertical-align: baseline;
@@ -224,7 +243,7 @@ table th {
   height: 11pt;
 }
 .c11 {
-  color: #000000;
+  color: #2b2d42;
   font-weight: 400;
   text-decoration: none;
   vertical-align: baseline;
@@ -241,7 +260,7 @@ table th {
   height: 11pt;
 }
 .c0 {
-  color: #000000;
+  color: #2b2d42;
   font-weight: 400;
   text-decoration: none;
   vertical-align: baseline;
@@ -282,7 +301,7 @@ table th {
 
 #name {
   background-color: #a4c2f4;
-  color: #000000;
+  color: #2b2d42;
   font-weight: bold;
   text-decoration: none;
   vertical-align: baseline;
@@ -299,7 +318,7 @@ table th {
   text-align: center;
 }
 .c16 {
-  color: #000000;
+  color: #2b2d42;
   text-decoration: none;
   vertical-align: baseline;
   font-size: 1.1rem;
@@ -312,14 +331,14 @@ table th {
   text-decoration: underline;
 }
 .c12 {
-  background-color: #ffffff;
+  background-color: #edf2f4;
   max-width: 468pt;
   padding: 36pt 72pt 72pt 72pt;
 }
-.c10 {
+/*.c10 {
   font-weight: 400;
   font-family: "Inter";
-}
+}*/
 .c13 {
   padding: 0;
   margin: 0;
@@ -353,21 +372,18 @@ table th {
   widows: 2;
   text-align: left;
 }
-.highlight {
-  background-color: #a4c2f4;
-}
 li {
-  color: #000000;
+  color: #2b2d42;
   font-size: 1.1rem;
 }
 p {
   /*margin: 0;*/
-  color: #000000;
+  color: #2b2d42;
   /*font-size: 1.1rem;*/
 }
 h1 {
   padding-top: 20pt;
-  color: #000000;
+  color: #2b2d42;
   font-size: 2rem;
   font-weight: 500;
   padding-bottom: 6pt;
@@ -379,7 +395,7 @@ h1 {
 }
 h2 {
   padding-top: 1.8rem;
-  color: #000000;
+  color: #2b2d42;
   font-size: 16pt;
   padding-bottom: 6pt;
   line-height: 1.15;

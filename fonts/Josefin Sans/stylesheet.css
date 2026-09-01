@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('JosefinSans.woff2') format('woff2'),
+        url('JosefinSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
