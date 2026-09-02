@@ -9,7 +9,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         projects: resolve(__dirname, "projects.html"),
-        //experience: resolve(__dirname, 'experience.html'),
+        experience: resolve(__dirname, "experience.html"),
         // one entry per html file
       },
     },
