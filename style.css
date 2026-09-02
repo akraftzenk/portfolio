@@ -35,9 +35,9 @@ body {
 
 #page-list {
   position: absolute;
-  left: 0;
+  left: auto;
   top: auto;
-  right: auto;
+  right: 6rem;
   bottom: 0;
   max-width: 30%;
 }
