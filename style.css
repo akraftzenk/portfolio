@@ -81,6 +81,10 @@ video {
   #sticky-header {
     padding: 0em 1em 1em 1em;
   }
+
+  #page-contents {
+    max-width: 100% !important;
+  }
 }
 
 body {
