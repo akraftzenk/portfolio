@@ -33,14 +33,9 @@ body {
     sans-serif !important;
 }
 
-#page-list {
-  position: absolute;
-  left: auto;
-  top: auto;
-  right: 6rem;
-  bottom: 0;
+/*#page-list {
   max-width: 30%;
-}
+}*/
 
 #page-contents > * {
   margin-left: auto;
@@ -67,7 +62,7 @@ div {
 
 #sticky-header {
   position: sticky;
-  display: block;
+  display: flex;
   padding: 1em;
   top: 0;
   z-index: 1000; /* Keeps it on top of other overlapping content */
@@ -84,7 +79,7 @@ video {
 
 @media (max-width: 767px) {
   #sticky-header {
-    padding: 2em 1em 1em 1em;
+    padding: 0em 1em 1em 1em;
   }
 }
 
