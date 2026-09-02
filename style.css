@@ -23,6 +23,13 @@ body {
   display: inline-block;
 }
 
+.force-normal-text {
+  font-family:
+    "Inter",
+    -apple-system,
+    sans-serif !important;
+}
+
 #page-list {
   position: absolute;
   left: 0;
