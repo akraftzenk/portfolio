@@ -19,9 +19,11 @@ body {
 }
 
 #page-contents {
-  max-width: 900px !important;
+  max-width: 1200px !important;
   margin: 2rem auto;
   display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .force-normal-text {
